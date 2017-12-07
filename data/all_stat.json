@@ -2,7 +2,7 @@
 
   {
     "region_name": "Alaska",
-    "id": "US_AK",
+    "id": "AK",
     "median_income": "63456.00",
     "people_in_poverty": "11",
     "median_age": "34.80",
@@ -36,7 +36,7 @@
   },
   {
     "region_name": "Alabama",
-    "id": "US_AL",
+    "id": "AL",
     "median_income": "40538.00",
     "people_in_poverty": "18.9",
     "median_age": "36.40",
@@ -70,7 +70,7 @@
   },
   {
     "region_name": "Arkansas",
-    "id": "US_AR",
+    "id": "AR",
     "median_income": "38413.00",
     "people_in_poverty": "18.7",
     "median_age": "37.20",
@@ -104,7 +104,7 @@
   },
   {
     "region_name": "Arizona",
-    "id": "US_AZ",
+    "id": "AZ",
     "median_income": "46787.00",
     "people_in_poverty": "17.6",
     "median_age": "39.10",
@@ -138,7 +138,7 @@
   },
   {
     "region_name": "California",
-    "id": "US_CA",
+    "id": "CA",
     "median_income": "57664.00",
     "people_in_poverty": "15.8",
     "median_age": "33.60",
@@ -172,7 +172,7 @@
   },
   {
     "region_name": "Colorado",
-    "id": "US_CO",
+    "id": "CO",
     "median_income": "54411.00",
     "people_in_poverty": "13.2",
     "median_age": "34.10",
@@ -206,7 +206,7 @@
   },
   {
     "region_name": "Connecticut",
-    "id": "US_CT",
+    "id": "CT",
     "median_income": "64321.00",
     "people_in_poverty": "10.1",
     "median_age": "36.10",
@@ -240,7 +240,7 @@
   },
   {
     "region_name": "District Of Columbia",
-    "id": "US_DC",
+    "id": "DC",
     "median_income": "60729.00",
     "people_in_poverty": "18.8",
     "median_age": "34.00",
@@ -274,7 +274,7 @@
   },
   {
     "region_name": "Delaware",
-    "id": "US_DE",
+    "id": "DE",
     "median_income": "56172.00",
     "people_in_poverty": "11.9",
     "median_age": "38.70",
@@ -308,7 +308,7 @@
   },
   {
     "region_name": "Florida",
-    "id": "US_FL",
+    "id": "FL",
     "median_income": "44390.00",
     "people_in_poverty": "16.5",
     "median_age": "36.30",
@@ -342,7 +342,7 @@
   },
   {
     "region_name": "Georgia",
-    "id": "US_GA",
+    "id": "GA",
     "median_income": "46252.00",
     "people_in_poverty": "18",
     "median_age": "35.10",
@@ -376,7 +376,7 @@
   },
   {
     "region_name": "Hawaii",
-    "id": "US_HI",
+    "id": "HI",
     "median_income": "62774.00",
     "people_in_poverty": "11.1",
     "median_age": "37.10",
@@ -410,7 +410,7 @@
   },
   {
     "region_name": "Iowa",
-    "id": "US_IA",
+    "id": "IA",
     "median_income": "48031.00",
     "people_in_poverty": "12.5",
     "median_age": "40.10",
@@ -444,7 +444,7 @@
   },
   {
     "region_name": "Idaho",
-    "id": "US_ID",
+    "id": "ID",
     "median_income": "43259.00",
     "people_in_poverty": "15.8",
     "median_age": "38.50",
@@ -478,7 +478,7 @@
   },
   {
     "region_name": "Illinois",
-    "id": "US_IL",
+    "id": "IL",
     "median_income": "52967.00",
     "people_in_poverty": "13.8",
     "median_age": "41.30",
@@ -512,7 +512,7 @@
   },
   {
     "region_name": "Indiana",
-    "id": "US_IN",
+    "id": "IN",
     "median_income": "44616.00",
     "people_in_poverty": "15.3",
     "median_age": "37.40",
@@ -546,7 +546,7 @@
   },
   {
     "region_name": "Kansas",
-    "id": "US_KS",
+    "id": "KS",
     "median_income": "47888.00",
     "people_in_poverty": "13.5",
     "median_age": "33.60",
@@ -580,7 +580,7 @@
   },
   {
     "region_name": "Kentucky",
-    "id": "US_KY",
+    "id": "KY",
     "median_income": "40089.00",
     "people_in_poverty": "18.9",
     "median_age": "34.00",
@@ -614,7 +614,7 @@
   },
   {
     "region_name": "Louisiana",
-    "id": "US_LA",
+    "id": "LS",
     "median_income": "42510.00",
     "people_in_poverty": "18.8",
     "median_age": "39.40",
@@ -648,7 +648,7 @@
   },
   {
     "region_name": "Massachusetts",
-    "id": "US_MA",
+    "id": "MA",
     "median_income": "62133.00",
     "people_in_poverty": "11.4",
     "median_age": "36.50",
@@ -682,7 +682,7 @@
   },
   {
     "region_name": "Maryland",
-    "id": "US_MD",
+    "id": "MD",
     "median_income": "68933.00",
     "people_in_poverty": "9.9",
     "median_age": "34.10",
@@ -716,7 +716,7 @@
   },
   {
     "region_name": "Maine",
-    "id": "US_ME",
+    "id": "ME",
     "median_income": "45882.00",
     "people_in_poverty": "13.1",
     "median_age": "42.10",
@@ -750,7 +750,7 @@
   },
   {
     "region_name": "Michigan",
-    "id": "US_MI",
+    "id": "MI",
     "median_income": "45354.00",
     "people_in_poverty": "16.7",
     "median_age": "37.20",
@@ -784,7 +784,7 @@
   },
   {
     "region_name": "Minnesota",
-    "id": "US_MN",
+    "id": "MN",
     "median_income": "55422.00",
     "people_in_poverty": "11.5",
     "median_age": "39.90",
@@ -818,7 +818,7 @@
   },
   {
     "region_name": "Missouri",
-    "id": "US_MO",
+    "id": "MO",
     "median_income": "44306.00",
     "people_in_poverty": "15.3",
     "median_age": "35.40",
@@ -852,7 +852,7 @@
   },
   {
     "region_name": "Mississippi",
-    "id": "US_MS",
+    "id": "MS",
     "median_income": "36992.00",
     "people_in_poverty": "22.4",
     "median_age": "33.70",
@@ -886,7 +886,7 @@
   },
   {
     "region_name": "Montana",
-    "id": "US_MT",
+    "id": "MT",
     "median_income": "42303.00",
     "people_in_poverty": "15.2",
     "median_age": "35.20",
@@ -920,7 +920,7 @@
   },
   {
     "region_name": "North Carolina",
-    "id": "US_NC",
+    "id": "NC",
     "median_income": "43417.00",
     "people_in_poverty": "17.4",
     "median_age": "37.40",
@@ -954,7 +954,7 @@
   },
   {
     "region_name": "North Dakota",
-    "id": "US_ND",
+    "id": "ND",
     "median_income": "48878.00",
     "people_in_poverty": "12.5",
     "median_age": "36.70",
@@ -988,7 +988,7 @@
   },
   {
     "region_name": "Nebraska",
-    "id": "US_NE",
+    "id": "NE",
     "median_income": "48415.00",
     "people_in_poverty": "12.6",
     "median_age": "37.90",
@@ -1022,7 +1022,7 @@
   },
   {
     "region_name": "New Hampshire",
-    "id": "US_NH",
+    "id": "NH",
     "median_income": "60917.00",
     "people_in_poverty": "8.6",
     "median_age": "38.20",
@@ -1056,7 +1056,7 @@
   },
   {
     "region_name": "New Jersey",
-    "id": "US_NJ",
+    "id": "NJ",
     "median_income": "67719.00",
     "people_in_poverty": "10.2",
     "median_age": "36.60",
@@ -1090,7 +1090,7 @@
   },
   {
     "region_name": "New Mexico",
-    "id": "US_NM",
+    "id": "NM",
     "median_income": "42186.00",
     "people_in_poverty": "19.8",
     "median_age": "39.50",
@@ -1124,7 +1124,7 @@
   },
   {
     "region_name": "Nevada",
-    "id": "US_NV",
+    "id": "NV",
     "median_income": "50987.00",
     "people_in_poverty": "14.8",
     "median_age": "35.70",
@@ -1158,7 +1158,7 @@
   },
   {
     "region_name": "New York",
-    "id": "US_NY",
+    "id": "NY",
     "median_income": "54047.00",
     "people_in_poverty": "15",
     "median_age": "34.70",
@@ -1192,7 +1192,7 @@
   },
   {
     "region_name": "Ohio",
-    "id": "US_OH",
+    "id": "OH",
     "median_income": "45151.00",
     "people_in_poverty": "15.8",
     "median_age": "39.30",
@@ -1226,7 +1226,7 @@
   },
   {
     "region_name": "Oklahoma",
-    "id": "US_OK",
+    "id": "OK",
     "median_income": "42076.00",
     "people_in_poverty": "16.8",
     "median_age": "34.50",
@@ -1260,7 +1260,7 @@
   },
   {
     "region_name": "Oregon",
-    "id": "US_OR",
+    "id": "OR",
     "median_income": "46536.00",
     "people_in_poverty": "15.8",
     "median_age": "37.20",
@@ -1294,7 +1294,7 @@
   },
   {
     "region_name": "Pennsylvania",
-    "id": "US_PA",
+    "id": "PA",
     "median_income": "49245.00",
     "people_in_poverty": "13.4",
     "median_age": "41.50",
@@ -1328,7 +1328,7 @@
   },
   {
     "region_name": "Rhode Island",
-    "id": "US_RI",
+    "id": "RI",
     "median_income": "52053.00",
     "people_in_poverty": "14.1",
     "median_age": "43.80",
@@ -1362,7 +1362,7 @@
   },
   {
     "region_name": "South Carolina",
-    "id": "US_SC",
+    "id": "SC",
     "median_income": "42117.00",
     "people_in_poverty": "18.1",
     "median_age": "36.40",
@@ -1396,7 +1396,7 @@
   },
   {
     "region_name": "South Dakota",
-    "id": "US_SD",
+    "id": "SD",
     "median_income": "45861.00",
     "people_in_poverty": "14.6",
     "median_age": "39.30",
@@ -1430,7 +1430,7 @@
   },
   {
     "region_name": "Tennessee",
-    "id": "US_TN",
+    "id": "TN",
     "median_income": "41461.00",
     "people_in_poverty": "17.8",
     "median_age": "37.70",
@@ -1464,7 +1464,7 @@
   },
   {
     "region_name": "Texas",
-    "id": "US_TX",
+    "id": "TX",
     "median_income": "48622.00",
     "people_in_poverty": "17.9",
     "median_age": "40.30",
@@ -1498,7 +1498,7 @@
   },
   {
     "region_name": "Utah",
-    "id": "US_UT",
+    "id": "UT",
     "median_income": "54740.00",
     "people_in_poverty": "13.3",
     "median_age": "37.60",
@@ -1532,7 +1532,7 @@
   },
   {
     "region_name": "Virginia",
-    "id": "US_VA",
+    "id": "VA",
     "median_income": "60665.00",
     "people_in_poverty": "11.1",
     "median_age": "36.30",
@@ -1566,7 +1566,7 @@
   },
   {
     "region_name": "Vermont",
-    "id": "US_VT",
+    "id": "VT",
     "median_income": "49393.00",
     "people_in_poverty": "12.4",
     "median_age": "40.00",
@@ -1600,7 +1600,7 @@
   },
   {
     "region_name": "Washington",
-    "id": "US_WA",
+    "id": "WA",
     "median_income": "55584.00",
     "people_in_poverty": "13.5",
     "median_age": "38.40",
@@ -1634,7 +1634,7 @@
   },
   {
     "region_name": "Wisconsin",
-    "id": "US_WI",
+    "id": "WI",
     "median_income": "48974.00",
     "people_in_poverty": "13.2",
     "median_age": "37.50",
@@ -1668,7 +1668,7 @@
   },
   {
     "region_name": "West Virginia",
-    "id": "US_WV",
+    "id": "WV",
     "median_income": "38241.00",
     "people_in_poverty": "18.2",
     "median_age": "36.50",
@@ -1702,7 +1702,7 @@
   },
   {
     "region_name": "Wyoming",
-    "id": "US_WY",
+    "id": "WY",
     "median_income": "53757.00",
     "people_in_poverty": "11.4",
     "median_age": "34.50",
