@@ -14,12 +14,12 @@ class Map {
    * @param data the json data with the shape of all states
    */
   drawMap(data) {
-    self = this
-    var mapsvg = d3.select("#statesvg")
-      .attr("width", "1000")
-      .attr("height", "700");
+    self = this;
+      let mapsvg = d3.select("#statesvg")
+          .attr("width", "1000")
+          .attr("height", "700");
 
-    mapsvg.selectAll(".state")
+      mapsvg.selectAll(".state")
       .data(data)
       .enter()
       .append("path")
