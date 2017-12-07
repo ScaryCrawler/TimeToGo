@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="styles/map.css" />
     <script src="https://d3js.org/d3.v4.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+    <script src="js/utils.js" async></script>
     <script src="js/questionnaire.js" async></script>
     <script src="js/barChart.js" async></script>
     <script src="js/map.js" async></script>
+    <script src="js/infoPanel.js" async></script>
     <script src="js/main.js" async></script>
 </head>
 
@@ -19,17 +21,36 @@
     <div id="questionnaireBlock"></div>
     <div id="barChartBlock"></div>
     <div id="mapBlock">
-        <div id="mapTitle">Selected State: </div>
-        <svg id="statesvg"></svg >
-        <div id = "description"></div >
+
+        <svg id="statesvg"></svg>
+        <div id="tooltip"></div>
+        <div id = "description">
+          <div id="mapTitle">Selected State: </div>
+          <div id="details" class="view">
+             <h2>Population</h2>
+             <span id="population"></span>
+             <h2>Races</h2>
+             <span id="races"></span>
+             <h2>Religions</h2>
+             <span id="religions"></span>
+             <h2>Average Income</h2>
+             <span id="income"></span>
+             <h2>Median Age</h2>
+             <span id="age"></span>
+             <h2>Crime</h2>
+             <span id="crime"></span>
+             <h2>Weather</h2>
+             <span id="weather"></span>
+          </div>
+        </div >
         <div id = "colorSelection">
             <label> Color Map By: </label>
                 <br>
-                <label><input type="radio" name="mode" id="populationColoring" value="stacked" checked> Population </label>
+                <label><input type="radio" name="colorParam" id="populationColoring" value="stacked" checked> Population </label>
                 <br>
-                <label><input type="radio" name="mode" id="crimeColoring" value="grouped"> Crime </label>
+                <label><input type="radio" name="colorParam" id="crimeColoring" value="grouped"> Crime </label>
                 <br>
-                <label><input type="radio" name="mode" id="incomeColoring" value="grouped"> Average Income</label>
+                <label><input type="radio" name="colorParam" id="incomeColoring" value="grouped"> Average Income</label>
         </div >
     </div >
 </div>
