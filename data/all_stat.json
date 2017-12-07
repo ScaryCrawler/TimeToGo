@@ -1,0 +1,1737 @@
+[
+
+  {
+    "region_name": "Alaska",
+    "id": "US_AK",
+    "median_income": "63456.00",
+    "people_in_poverty": "11",
+    "median_age": "34.80",
+    "weather": {
+      "sunny_days": "61",
+      "precipitation": "572"
+    },
+    "religion": {
+      "atheists": "10.5",
+      "other": "1.00",
+      "protestants": "82.00",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "6",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "4864.00",
+      "rapes": "1355",
+      "motor_vehicle_thefts": "10780.00",
+      "murders": "275"
+    },
+    "population": "3175823.00",
+    "races": {
+      "asian": "5.40",
+      "latinos": "5.50",
+      "white": "66.7",
+      "others": "19.10",
+      "black": "3.30"
+    }
+  },
+  {
+    "region_name": "Alabama",
+    "id": "US_AL",
+    "median_income": "40538.00",
+    "people_in_poverty": "18.9",
+    "median_age": "36.40",
+    "weather": {
+      "sunny_days": "99",
+      "precipitation": "1480"
+    },
+    "religion": {
+      "atheists": "32.5",
+      "other": "2.00",
+      "protestants": "40.00",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "25",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "6953.00",
+      "rapes": "2191",
+      "motor_vehicle_thefts": "21733.00",
+      "murders": "408"
+    },
+    "population": "2320188.00",
+    "races": {
+      "asian": "1.10",
+      "latinos": "3.90",
+      "white": "68.5",
+      "others": "0.30",
+      "black": "26.20"
+    }
+  },
+  {
+    "region_name": "Arkansas",
+    "id": "US_AR",
+    "median_income": "38413.00",
+    "people_in_poverty": "18.7",
+    "median_age": "37.20",
+    "weather": {
+      "sunny_days": "123",
+      "precipitation": "1284"
+    },
+    "religion": {
+      "atheists": "14.5",
+      "other": "0.50",
+      "protestants": "79.00",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "5",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "594.00",
+      "rapes": "533",
+      "motor_vehicle_thefts": "1619.00",
+      "murders": "31"
+    },
+    "population": "3216194.00",
+    "races": {
+      "asian": "1.20",
+      "latinos": "6.40",
+      "white": "77",
+      "others": "0.00",
+      "black": "15.40"
+    }
+  },
+  {
+    "region_name": "Arizona",
+    "id": "US_AZ",
+    "median_income": "46787.00",
+    "people_in_poverty": "17.6",
+    "median_age": "39.10",
+    "weather": {
+      "sunny_days": "193",
+      "precipitation": "345"
+    },
+    "religion": {
+      "atheists": "28.5",
+      "other": "1.00",
+      "protestants": "36.00",
+      "muslim": "0.50",
+      "buddhist": "2.00",
+      "catholic": "31",
+      "jewish": "2"
+    },
+    "crime": {
+      "robberies": "2369.00",
+      "rapes": "1321",
+      "motor_vehicle_thefts": "5561.00",
+      "murders": "134"
+    },
+    "population": "2459548.00",
+    "races": {
+      "asian": "2.80",
+      "latinos": "29.60",
+      "white": "63.5",
+      "others": "0.00",
+      "black": "4.10"
+    }
+  },
+  {
+    "region_name": "California",
+    "id": "US_CA",
+    "median_income": "57664.00",
+    "people_in_poverty": "15.8",
+    "median_age": "33.60",
+    "weather": {
+      "sunny_days": "146",
+      "precipitation": "563"
+    },
+    "religion": {
+      "atheists": "33.5",
+      "other": "2.00",
+      "protestants": "44.00",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "19",
+      "jewish": "2"
+    },
+    "crime": {
+      "robberies": "58116.00",
+      "rapes": "8331",
+      "motor_vehicle_thefts": "152524.00",
+      "murders": "1809"
+    },
+    "population": "369628.00",
+    "races": {
+      "asian": "13.00",
+      "latinos": "37.60",
+      "white": "43.2",
+      "others": "0.00",
+      "black": "6.20"
+    }
+  },
+  {
+    "region_name": "Colorado",
+    "id": "US_CO",
+    "median_income": "54411.00",
+    "people_in_poverty": "13.2",
+    "median_age": "34.10",
+    "weather": {
+      "sunny_days": "136",
+      "precipitation": "405"
+    },
+    "religion": {
+      "atheists": "27.5",
+      "other": "1.00",
+      "protestants": "27.00",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "43",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "3164.00",
+      "rapes": "2230",
+      "motor_vehicle_thefts": "11271.00",
+      "murders": "129"
+    },
+    "population": "340603.00",
+    "races": {
+      "asian": "2.80",
+      "latinos": "20.70",
+      "white": "72.5",
+      "others": "0.00",
+      "black": "4.00"
+    }
+  },
+  {
+    "region_name": "Connecticut",
+    "id": "US_CT",
+    "median_income": "64321.00",
+    "people_in_poverty": "10.1",
+    "median_age": "36.10",
+    "weather": {
+      "sunny_days": "82",
+      "precipitation": "1279"
+    },
+    "religion": {
+      "atheists": "23",
+      "other": "0.50",
+      "protestants": "47.00",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "27",
+      "jewish": "2"
+    },
+    "crime": {
+      "robberies": "3553.00",
+      "rapes": "595",
+      "motor_vehicle_thefts": "6701.00",
+      "murders": "133"
+    },
+    "population": "1431637.00",
+    "races": {
+      "asian": "3.80",
+      "latinos": "13.40",
+      "white": "72.7",
+      "others": "0.00",
+      "black": "10.10"
+    }
+  },
+  {
+    "region_name": "District Of Columbia",
+    "id": "US_DC",
+    "median_income": "60729.00",
+    "people_in_poverty": "18.8",
+    "median_age": "34.00",
+    "weather": {
+      "sunny_days": "97",
+      "precipitation": "1160"
+    },
+    "religion": {
+      "atheists": "22.5",
+      "other": "1.00",
+      "protestants": "53.00",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "18",
+      "jewish": "5"
+    },
+    "crime": {
+      "robberies": "1839.00",
+      "rapes": "326",
+      "motor_vehicle_thefts": "1935.00",
+      "murders": "51"
+    },
+    "population": "18517830.00",
+    "races": {
+      "asian": "3.50",
+      "latinos": "9.10",
+      "white": "36.7",
+      "others": "0.00",
+      "black": "50.70"
+    }
+  },
+  {
+    "region_name": "Delaware",
+    "id": "US_DE",
+    "median_income": "56172.00",
+    "people_in_poverty": "11.9",
+    "median_age": "38.70",
+    "weather": {
+      "sunny_days": "101",
+      "precipitation": "1385"
+    },
+    "religion": {
+      "atheists": "21.5",
+      "other": "1.00",
+      "protestants": "48.00",
+      "muslim": "1.00",
+      "buddhist": "0.50",
+      "catholic": "26",
+      "jewish": "3"
+    },
+    "crime": {
+      "robberies": "4325.00",
+      "rapes": "187",
+      "motor_vehicle_thefts": "5055.00",
+      "murders": "132"
+    },
+    "population": "1484281.00",
+    "races": {
+      "asian": "3.20",
+      "latinos": "8.20",
+      "white": "67.2",
+      "others": "0.00",
+      "black": "21.40"
+    }
+  },
+  {
+    "region_name": "Florida",
+    "id": "US_FL",
+    "median_income": "44390.00",
+    "people_in_poverty": "16.5",
+    "median_age": "36.30",
+    "weather": {
+      "sunny_days": "112",
+      "precipitation": "1287"
+    },
+    "religion": {
+      "atheists": "16",
+      "other": "0.50",
+      "protestants": "70.00",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "12",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "26086.00",
+      "rapes": "5373",
+      "motor_vehicle_thefts": "41462.00",
+      "murders": "987"
+    },
+    "population": "18736126.00",
+    "races": {
+      "asian": "2.40",
+      "latinos": "22.50",
+      "white": "59.1",
+      "others": "0.00",
+      "black": "16.00"
+    }
+  },
+  {
+    "region_name": "Georgia",
+    "id": "US_GA",
+    "median_income": "46252.00",
+    "people_in_poverty": "18",
+    "median_age": "35.10",
+    "weather": {
+      "sunny_days": "90",
+      "precipitation": "1618"
+    },
+    "religion": {
+      "atheists": "42",
+      "other": "0.50",
+      "protestants": "38.50",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "18",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "12372.00",
+      "rapes": "2107",
+      "motor_vehicle_thefts": "30341.00",
+      "murders": "555"
+    },
+    "population": "2520662.00",
+    "races": {
+      "asian": "3.20",
+      "latinos": "8.80",
+      "white": "57.5",
+      "others": "0.00",
+      "black": "30.50"
+    }
+  },
+  {
+    "region_name": "Hawaii",
+    "id": "US_HI",
+    "median_income": "62774.00",
+    "people_in_poverty": "11.1",
+    "median_age": "37.10",
+    "weather": {
+      "sunny_days": "105",
+      "precipitation": "864"
+    },
+    "religion": {
+      "atheists": "19.5",
+      "other": "1.00",
+      "protestants": "45.00",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "32",
+      "jewish": "2"
+    },
+    "crime": {
+      "robberies": "1065.00",
+      "rapes": "377",
+      "motor_vehicle_thefts": "5280.00",
+      "murders": "25"
+    },
+    "population": "2508534.00",
+    "races": {
+      "asian": "38.60",
+      "latinos": "8.90",
+      "white": "24.7",
+      "others": "26.20",
+      "black": "1.60"
+    }
+  },
+  {
+    "region_name": "Iowa",
+    "id": "US_IA",
+    "median_income": "48031.00",
+    "people_in_poverty": "12.5",
+    "median_age": "40.10",
+    "weather": {
+      "sunny_days": "120",
+      "precipitation": "481"
+    },
+    "religion": {
+      "atheists": "18",
+      "other": "0.50",
+      "protestants": "62.00",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "18",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "213.00",
+      "rapes": "533",
+      "motor_vehicle_thefts": "1329.00",
+      "murders": "22"
+    },
+    "population": "462995.00",
+    "races": {
+      "asian": "1.70",
+      "latinos": "5.00",
+      "white": "90.4",
+      "others": "0.00",
+      "black": "2.90"
+    }
+  },
+  {
+    "region_name": "Idaho",
+    "id": "US_ID",
+    "median_income": "43259.00",
+    "people_in_poverty": "15.8",
+    "median_age": "38.50",
+    "weather": {
+      "sunny_days": "95",
+      "precipitation": "996"
+    },
+    "religion": {
+      "atheists": "18",
+      "other": "1.00",
+      "protestants": "55.00",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "25",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "20386.00",
+      "rapes": "3066",
+      "motor_vehicle_thefts": "28911.00",
+      "murders": "704"
+    },
+    "population": "1739614.00",
+    "races": {
+      "asian": "1.20",
+      "latinos": "11.20",
+      "white": "87",
+      "others": "0.00",
+      "black": "0.60"
+    }
+  },
+  {
+    "region_name": "Illinois",
+    "id": "US_IL",
+    "median_income": "52967.00",
+    "people_in_poverty": "13.8",
+    "median_age": "41.30",
+    "weather": {
+      "sunny_days": "88",
+      "precipitation": "1060"
+    },
+    "religion": {
+      "atheists": "16.5",
+      "other": "1.00",
+      "protestants": "59.00",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "23",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "6559.00",
+      "rapes": "1760",
+      "motor_vehicle_thefts": "13500.00",
+      "murders": "268"
+    },
+    "population": "1834483.00",
+    "races": {
+      "asian": "4.60",
+      "latinos": "15.80",
+      "white": "65.1",
+      "others": "0.00",
+      "black": "14.50"
+    }
+  },
+  {
+    "region_name": "Indiana",
+    "id": "US_IN",
+    "median_income": "44616.00",
+    "people_in_poverty": "15.3",
+    "median_age": "37.40",
+    "weather": {
+      "sunny_days": "128",
+      "precipitation": "733"
+    },
+    "religion": {
+      "atheists": "13.5",
+      "other": "1.00",
+      "protestants": "71.00",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "14",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "1012.00",
+      "rapes": "883",
+      "motor_vehicle_thefts": "3800.00",
+      "murders": "38"
+    },
+    "population": "434939.00",
+    "races": {
+      "asian": "1.60",
+      "latinos": "6.00",
+      "white": "83.3",
+      "others": "0.00",
+      "black": "9.10"
+    }
+  },
+  {
+    "region_name": "Kansas",
+    "id": "US_KS",
+    "median_income": "47888.00",
+    "people_in_poverty": "13.5",
+    "median_age": "33.60",
+    "weather": {
+      "sunny_days": "93",
+      "precipitation": "1242"
+    },
+    "religion": {
+      "atheists": "9.5",
+      "other": "0.50",
+      "protestants": "60.00",
+      "muslim": "1.00",
+      "buddhist": "1.00",
+      "catholic": "28",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "1538.00",
+      "rapes": "1146",
+      "motor_vehicle_thefts": "6020.00",
+      "murders": "97"
+    },
+    "population": "284222.00",
+    "races": {
+      "asian": "2.40",
+      "latinos": "10.50",
+      "white": "81.2",
+      "others": "0.00",
+      "black": "5.90"
+    }
+  },
+  {
+    "region_name": "Kentucky",
+    "id": "US_KY",
+    "median_income": "40089.00",
+    "people_in_poverty": "18.9",
+    "median_age": "34.00",
+    "weather": {
+      "sunny_days": "101",
+      "precipitation": "1528"
+    },
+    "religion": {
+      "atheists": "27.5",
+      "other": "0.50",
+      "protestants": "41.50",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "29",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "3748.00",
+      "rapes": "1438",
+      "motor_vehicle_thefts": "6239.00",
+      "murders": "188"
+    },
+    "population": "317501.00",
+    "races": {
+      "asian": "1.10",
+      "latinos": "3.10",
+      "white": "87.8",
+      "others": "0.20",
+      "black": "7.80"
+    }
+  },
+  {
+    "region_name": "Louisiana",
+    "id": "US_LA",
+    "median_income": "42510.00",
+    "people_in_poverty": "18.8",
+    "median_age": "39.40",
+    "weather": {
+      "sunny_days": "98",
+      "precipitation": "1211"
+    },
+    "religion": {
+      "atheists": "22.5",
+      "other": "1.00",
+      "protestants": "53.00",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "18",
+      "jewish": "5"
+    },
+    "crime": {
+      "robberies": "5297.00",
+      "rapes": "1230",
+      "motor_vehicle_thefts": "9970.00",
+      "murders": "500"
+    },
+    "population": "9189355.00",
+    "races": {
+      "asian": "1.50",
+      "latinos": "4.20",
+      "white": "62.3",
+      "others": "0.00",
+      "black": "32.00"
+    }
+  },
+  {
+    "region_name": "Massachusetts",
+    "id": "US_MA",
+    "median_income": "62133.00",
+    "people_in_poverty": "11.4",
+    "median_age": "36.50",
+    "weather": {
+      "sunny_days": "105",
+      "precipitation": "1131"
+    },
+    "religion": {
+      "atheists": "24.5",
+      "other": "1.00",
+      "protestants": "28.00",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "43",
+      "jewish": "3"
+    },
+    "crime": {
+      "robberies": "412.00",
+      "rapes": "389",
+      "motor_vehicle_thefts": "989.00",
+      "murders": "24"
+    },
+    "population": "4958482.00",
+    "races": {
+      "asian": "5.30",
+      "latinos": "9.60",
+      "white": "78.5",
+      "others": "0.00",
+      "black": "6.60"
+    }
+  },
+  {
+    "region_name": "Maryland",
+    "id": "US_MD",
+    "median_income": "68933.00",
+    "people_in_poverty": "9.9",
+    "median_age": "34.10",
+    "weather": {
+      "sunny_days": "101",
+      "precipitation": "1072"
+    },
+    "religion": {
+      "atheists": "21",
+      "other": "1.00",
+      "protestants": "53.00",
+      "muslim": "1.00",
+      "buddhist": "1.00",
+      "catholic": "23",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "11054.00",
+      "rapes": "1228",
+      "motor_vehicle_thefts": "18027.00",
+      "murders": "426"
+    },
+    "population": "4729171.00",
+    "races": {
+      "asian": "5.50",
+      "latinos": "8.20",
+      "white": "56.9",
+      "others": "0.00",
+      "black": "29.40"
+    }
+  },
+  {
+    "region_name": "Maine",
+    "id": "US_ME",
+    "median_income": "45882.00",
+    "people_in_poverty": "13.1",
+    "median_age": "42.10",
+    "weather": {
+      "sunny_days": "71",
+      "precipitation": "833"
+    },
+    "religion": {
+      "atheists": "15",
+      "other": "0.50",
+      "protestants": "54.00",
+      "muslim": "1.00",
+      "buddhist": "1.00",
+      "catholic": "28",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "6897.00",
+      "rapes": "1784",
+      "motor_vehicle_thefts": "11469.00",
+      "murders": "214"
+    },
+    "population": "9611955.00",
+    "races": {
+      "asian": "1.00",
+      "latinos": "1.30",
+      "white": "95.2",
+      "others": "1.30",
+      "black": "1.20"
+    }
+  },
+  {
+    "region_name": "Michigan",
+    "id": "US_MI",
+    "median_income": "45354.00",
+    "people_in_poverty": "16.7",
+    "median_age": "37.20",
+    "weather": {
+      "sunny_days": "95",
+      "precipitation": "693"
+    },
+    "religion": {
+      "atheists": "8.5",
+      "other": "1.00",
+      "protestants": "81.00",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "9",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "11522.00",
+      "rapes": "4733",
+      "motor_vehicle_thefts": "27408.00",
+      "murders": "580"
+    },
+    "population": "681243.00",
+    "races": {
+      "asian": "2.40",
+      "latinos": "4.40",
+      "white": "78.9",
+      "others": "0.10",
+      "black": "14.20"
+    }
+  },
+  {
+    "region_name": "Minnesota",
+    "id": "US_MN",
+    "median_income": "55422.00",
+    "people_in_poverty": "11.5",
+    "median_age": "39.90",
+    "weather": {
+      "sunny_days": "115",
+      "precipitation": "1071"
+    },
+    "religion": {
+      "atheists": "19",
+      "other": "0.50",
+      "protestants": "61.00",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "18",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "3388.00",
+      "rapes": "1798",
+      "motor_vehicle_thefts": "8587.00",
+      "murders": "96"
+    },
+    "population": "679058.00",
+    "races": {
+      "asian": "4.00",
+      "latinos": "4.70",
+      "white": "85.3",
+      "others": "0.80",
+      "black": "5.20"
+    }
+  },
+  {
+    "region_name": "Missouri",
+    "id": "US_MO",
+    "median_income": "44306.00",
+    "people_in_poverty": "15.3",
+    "median_age": "35.40",
+    "weather": {
+      "sunny_days": "111",
+      "precipitation": "1499"
+    },
+    "religion": {
+      "atheists": "27.5",
+      "other": "0.50",
+      "protestants": "47.50",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "23",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "2777.00",
+      "rapes": "931",
+      "motor_vehicle_thefts": "5359.00",
+      "murders": "204"
+    },
+    "population": "782258.00",
+    "races": {
+      "asian": "1.60",
+      "latinos": "3.50",
+      "white": "82.8",
+      "others": "0.50",
+      "black": "11.60"
+    }
+  },
+  {
+    "region_name": "Mississippi",
+    "id": "US_MS",
+    "median_income": "36992.00",
+    "people_in_poverty": "22.4",
+    "median_age": "33.70",
+    "weather": {
+      "sunny_days": "82",
+      "precipitation": "390"
+    },
+    "religion": {
+      "atheists": "16.5",
+      "other": "0.50",
+      "protestants": "51.00",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "31",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "6185.00",
+      "rapes": "1445",
+      "motor_vehicle_thefts": "16135.00",
+      "murders": "420"
+    },
+    "population": "785324.00",
+    "races": {
+      "asian": "0.90",
+      "latinos": "2.70",
+      "white": "59.1",
+      "others": "0.30",
+      "black": "37.00"
+    }
+  },
+  {
+    "region_name": "Montana",
+    "id": "US_MT",
+    "median_income": "42303.00",
+    "people_in_poverty": "15.2",
+    "median_age": "35.20",
+    "weather": {
+      "sunny_days": "109",
+      "precipitation": "1279"
+    },
+    "religion": {
+      "atheists": "43.5",
+      "other": "2.00",
+      "protestants": "26.00",
+      "muslim": "2.00",
+      "buddhist": "0.50",
+      "catholic": "27",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "154.00",
+      "rapes": "332",
+      "motor_vehicle_thefts": "1551.00",
+      "murders": "25"
+    },
+    "population": "6292276.00",
+    "races": {
+      "asian": "0.60",
+      "latinos": "2.90",
+      "white": "89.4",
+      "others": "6.70",
+      "black": "0.40"
+    }
+  },
+  {
+    "region_name": "North Carolina",
+    "id": "US_NC",
+    "median_income": "43417.00",
+    "people_in_poverty": "17.4",
+    "median_age": "37.40",
+    "weather": {
+      "sunny_days": "93",
+      "precipitation": "452"
+    },
+    "religion": {
+      "atheists": "34",
+      "other": "0.50",
+      "protestants": "34.50",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "29",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "1020.00",
+      "rapes": "674",
+      "motor_vehicle_thefts": "3613.00",
+      "murders": "54"
+    },
+    "population": "1437710.00",
+    "races": {
+      "asian": "2.20",
+      "latinos": "8.40",
+      "white": "67.9",
+      "others": "0.00",
+      "black": "21.50"
+    }
+  },
+  {
+    "region_name": "North Dakota",
+    "id": "US_ND",
+    "median_income": "48878.00",
+    "people_in_poverty": "12.5",
+    "median_age": "36.70",
+    "weather": {
+      "sunny_days": "117",
+      "precipitation": "599"
+    },
+    "religion": {
+      "atheists": "20",
+      "other": "2.00",
+      "protestants": "30.00",
+      "muslim": "1.00",
+      "buddhist": "1.00",
+      "catholic": "42",
+      "jewish": "6"
+    },
+    "crime": {
+      "robberies": "5298.00",
+      "rapes": "965",
+      "motor_vehicle_thefts": "10185.00",
+      "murders": "158"
+    },
+    "population": "2134952.00",
+    "races": {
+      "asian": "1.00",
+      "latinos": "2.00",
+      "white": "90",
+      "others": "5.80",
+      "black": "1.20"
+    }
+  },
+  {
+    "region_name": "Nebraska",
+    "id": "US_NE",
+    "median_income": "48415.00",
+    "people_in_poverty": "12.6",
+    "median_age": "37.90",
+    "weather": {
+      "sunny_days": "90",
+      "precipitation": "1103"
+    },
+    "religion": {
+      "atheists": "27.5",
+      "other": "1.00",
+      "protestants": "42.00",
+      "muslim": "0.50",
+      "buddhist": "2.00",
+      "catholic": "26",
+      "jewish": "2"
+    },
+    "crime": {
+      "robberies": "450.00",
+      "rapes": "411",
+      "motor_vehicle_thefts": "997.00",
+      "murders": "13"
+    },
+    "population": "6538356.00",
+    "races": {
+      "asian": "1.80",
+      "latinos": "9.20",
+      "white": "84.5",
+      "others": "0.00",
+      "black": "4.50"
+    }
+  },
+  {
+    "region_name": "New Hampshire",
+    "id": "US_NH",
+    "median_income": "60917.00",
+    "people_in_poverty": "8.6",
+    "median_age": "38.20",
+    "weather": {
+      "sunny_days": "94",
+      "precipitation": "1196"
+    },
+    "religion": {
+      "atheists": "21",
+      "other": "1.00",
+      "protestants": "32.00",
+      "muslim": "1.00",
+      "buddhist": "1.00",
+      "catholic": "39",
+      "jewish": "6"
+    },
+    "crime": {
+      "robberies": "11818.00",
+      "rapes": "981",
+      "motor_vehicle_thefts": "15556.00",
+      "murders": "371"
+    },
+    "population": "3294065.00",
+    "races": {
+      "asian": "2.20",
+      "latinos": "2.80",
+      "white": "93.9",
+      "others": "0.00",
+      "black": "1.10"
+    }
+  },
+  {
+    "region_name": "New Jersey",
+    "id": "US_NJ",
+    "median_income": "67719.00",
+    "people_in_poverty": "10.2",
+    "median_age": "36.60",
+    "weather": {
+      "sunny_days": "167",
+      "precipitation": "370"
+    },
+    "religion": {
+      "atheists": "14",
+      "other": "1.00",
+      "protestants": "75.00",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "9",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "1616.00",
+      "rapes": "959",
+      "motor_vehicle_thefts": "5250.00",
+      "murders": "140"
+    },
+    "population": "1508319.00",
+    "races": {
+      "asian": "8.30",
+      "latinos": "17.70",
+      "white": "60.3",
+      "others": "0.00",
+      "black": "13.70"
+    }
+  },
+  {
+    "region_name": "New Mexico",
+    "id": "US_NM",
+    "median_income": "42186.00",
+    "people_in_poverty": "19.8",
+    "median_age": "39.50",
+    "weather": {
+      "sunny_days": "158",
+      "precipitation": "241"
+    },
+    "religion": {
+      "atheists": "14",
+      "other": "1.00",
+      "protestants": "59.50",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "25",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "28630.00",
+      "rapes": "2797",
+      "motor_vehicle_thefts": "20639.00",
+      "murders": "868"
+    },
+    "population": "1538036.00",
+    "races": {
+      "asian": "1.40",
+      "latinos": "46.30",
+      "white": "50.2",
+      "others": "0.00",
+      "black": "2.10"
+    }
+  },
+  {
+    "region_name": "Nevada",
+    "id": "US_NV",
+    "median_income": "50987.00",
+    "people_in_poverty": "14.8",
+    "median_age": "35.70",
+    "weather": {
+      "sunny_days": "63",
+      "precipitation": "1062"
+    },
+    "religion": {
+      "atheists": "21.5",
+      "other": "1.00",
+      "protestants": "55.00",
+      "muslim": "1.00",
+      "buddhist": "0.50",
+      "catholic": "21",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "9620.00",
+      "rapes": "2002",
+      "motor_vehicle_thefts": "18319.00",
+      "murders": "474"
+    },
+    "population": "3189737.00",
+    "races": {
+      "asian": "7.20",
+      "latinos": "26.50",
+      "white": "58.2",
+      "others": "0.00",
+      "black": "8.10"
+    }
+  },
+  {
+    "region_name": "New York",
+    "id": "US_NY",
+    "median_income": "54047.00",
+    "people_in_poverty": "15",
+    "median_age": "34.70",
+    "weather": {
+      "sunny_days": "72",
+      "precipitation": "993"
+    },
+    "religion": {
+      "atheists": "14",
+      "other": "1.00",
+      "protestants": "72.00",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "12",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "90.00",
+      "rapes": "245",
+      "motor_vehicle_thefts": "873.00",
+      "murders": "10"
+    },
+    "population": "1415408.00",
+    "races": {
+      "asian": "7.30",
+      "latinos": "17.60",
+      "white": "59.2",
+      "others": "0.00",
+      "black": "15.90"
+    }
+  },
+  {
+    "region_name": "Ohio",
+    "id": "US_OH",
+    "median_income": "45151.00",
+    "people_in_poverty": "15.8",
+    "median_age": "39.30",
+    "weather": {
+      "sunny_days": "139",
+      "precipitation": "927"
+    },
+    "religion": {
+      "atheists": "35.5",
+      "other": "0.50",
+      "protestants": "47.00",
+      "muslim": "0.50",
+      "buddhist": "2.00",
+      "catholic": "14",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "16486.00",
+      "rapes": "3730",
+      "motor_vehicle_thefts": "21130.00",
+      "murders": "479"
+    },
+    "population": "2204415.00",
+    "races": {
+      "asian": "1.70",
+      "latinos": "3.10",
+      "white": "82.7",
+      "others": "0.30",
+      "black": "12.20"
+    }
+  },
+  {
+    "region_name": "Oklahoma",
+    "id": "US_OK",
+    "median_income": "42076.00",
+    "people_in_poverty": "16.8",
+    "median_age": "34.50",
+    "weather": {
+      "sunny_days": "68",
+      "precipitation": "695"
+    },
+    "religion": {
+      "atheists": "18",
+      "other": "1.00",
+      "protestants": "50.00",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "29",
+      "jewish": "2"
+    },
+    "crime": {
+      "robberies": "3345.00",
+      "rapes": "1469",
+      "motor_vehicle_thefts": "10313.00",
+      "murders": "195"
+    },
+    "population": "2219292.00",
+    "races": {
+      "asian": "1.70",
+      "latinos": "8.90",
+      "white": "72.2",
+      "others": "9.80",
+      "black": "7.40"
+    }
+  },
+  {
+    "region_name": "Oregon",
+    "id": "US_OR",
+    "median_income": "46536.00",
+    "people_in_poverty": "15.8",
+    "median_age": "37.20",
+    "weather": {
+      "sunny_days": "87",
+      "precipitation": "1089"
+    },
+    "religion": {
+      "atheists": "27.5",
+      "other": "1.00",
+      "protestants": "27.00",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "43",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "2421.00",
+      "rapes": "1239",
+      "motor_vehicle_thefts": "9128.00",
+      "murders": "96"
+    },
+    "population": "2314080.00",
+    "races": {
+      "asian": "3.70",
+      "latinos": "11.70",
+      "white": "82.8",
+      "others": "0.00",
+      "black": "1.80"
+    }
+  },
+  {
+    "region_name": "Pennsylvania",
+    "id": "US_PA",
+    "median_income": "49245.00",
+    "people_in_poverty": "13.4",
+    "median_age": "41.50",
+    "weather": {
+      "sunny_days": "98",
+      "precipitation": "1218"
+    },
+    "religion": {
+      "atheists": "12",
+      "other": "0.50",
+      "protestants": "78.00",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "8",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "16375.00",
+      "rapes": "3472",
+      "motor_vehicle_thefts": "16720.00",
+      "murders": "653"
+    },
+    "population": "650056.00",
+    "races": {
+      "asian": "2.70",
+      "latinos": "5.70",
+      "white": "80.8",
+      "others": "0.00",
+      "black": "10.80"
+    }
+  },
+  {
+    "region_name": "Rhode Island",
+    "id": "US_RI",
+    "median_income": "52053.00",
+    "people_in_poverty": "14.1",
+    "median_age": "43.80",
+    "weather": {
+      "sunny_days": "115",
+      "precipitation": "1264"
+    },
+    "religion": {
+      "atheists": "14",
+      "other": "1.00",
+      "protestants": "59.50",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "25",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "782.00",
+      "rapes": "298",
+      "motor_vehicle_thefts": "2403.00",
+      "murders": "29"
+    },
+    "population": "678305.00",
+    "races": {
+      "asian": "2.90",
+      "latinos": "12.40",
+      "white": "79",
+      "others": "0.00",
+      "black": "5.70"
+    }
+  },
+  {
+    "region_name": "South Carolina",
+    "id": "US_SC",
+    "median_income": "42117.00",
+    "people_in_poverty": "18.1",
+    "median_age": "36.40",
+    "weather": {
+      "sunny_days": "104",
+      "precipitation": "511"
+    },
+    "religion": {
+      "atheists": "14",
+      "other": "1.00",
+      "protestants": "77.00",
+      "muslim": "1.00",
+      "buddhist": "0.50",
+      "catholic": "7",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "5017.00",
+      "rapes": "1551",
+      "motor_vehicle_thefts": "13293.00",
+      "murders": "265"
+    },
+    "population": "2791762.00",
+    "races": {
+      "asian": "1.30",
+      "latinos": "5.10",
+      "white": "65.7",
+      "others": "0.00",
+      "black": "27.90"
+    }
+  },
+  {
+    "region_name": "South Dakota",
+    "id": "US_SD",
+    "median_income": "45861.00",
+    "people_in_poverty": "14.6",
+    "median_age": "39.30",
+    "weather": {
+      "sunny_days": "102",
+      "precipitation": "1376"
+    },
+    "religion": {
+      "atheists": "16.5",
+      "other": "0.50",
+      "protestants": "57.00",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "24",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "154.00",
+      "rapes": "385",
+      "motor_vehicle_thefts": "800.00",
+      "murders": "23"
+    },
+    "population": "2981790.00",
+    "races": {
+      "asian": "0.90",
+      "latinos": "2.70",
+      "white": "85.9",
+      "others": "9.20",
+      "black": "1.30"
+    }
+  },
+  {
+    "region_name": "Tennessee",
+    "id": "US_TN",
+    "median_income": "41461.00",
+    "people_in_poverty": "17.8",
+    "median_age": "37.70",
+    "weather": {
+      "sunny_days": "135",
+      "precipitation": "734"
+    },
+    "religion": {
+      "atheists": "74.5",
+      "other": "1.00",
+      "protestants": "14.00",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "10",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "8361.00",
+      "rapes": "2173",
+      "motor_vehicle_thefts": "14833.00",
+      "murders": "359"
+    },
+    "population": "3166628.00",
+    "races": {
+      "asian": "1.40",
+      "latinos": "4.60",
+      "white": "77.3",
+      "others": "0.00",
+      "black": "16.70"
+    }
+  },
+  {
+    "region_name": "Texas",
+    "id": "US_TX",
+    "median_income": "48622.00",
+    "people_in_poverty": "17.9",
+    "median_age": "40.30",
+    "weather": {
+      "sunny_days": "125",
+      "precipitation": "310"
+    },
+    "religion": {
+      "atheists": "34",
+      "other": "0.50",
+      "protestants": "34.50",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "29",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "32843.00",
+      "rapes": "7622",
+      "motor_vehicle_thefts": "68023.00",
+      "murders": "1249"
+    },
+    "population": "3381001.00",
+    "races": {
+      "asian": "3.80",
+      "latinos": "37.60",
+      "white": "46.8",
+      "others": "0.00",
+      "black": "11.80"
+    }
+  },
+  {
+    "region_name": "Utah",
+    "id": "US_UT",
+    "median_income": "54740.00",
+    "people_in_poverty": "13.3",
+    "median_age": "37.60",
+    "weather": {
+      "sunny_days": "100",
+      "precipitation": "1125"
+    },
+    "religion": {
+      "atheists": "22.5",
+      "other": "1.00",
+      "protestants": "61.00",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "14",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "1269.00",
+      "rapes": "983",
+      "motor_vehicle_thefts": "5979.00",
+      "murders": "53"
+    },
+    "population": "4848114.00",
+    "races": {
+      "asian": "2.00",
+      "latinos": "13.00",
+      "white": "83.9",
+      "others": "0.00",
+      "black": "1.10"
+    }
+  },
+  {
+    "region_name": "Virginia",
+    "id": "US_VA",
+    "median_income": "60665.00",
+    "people_in_poverty": "11.1",
+    "median_age": "36.30",
+    "weather": {
+      "sunny_days": "58",
+      "precipitation": "1085"
+    },
+    "religion": {
+      "atheists": "32.5",
+      "other": "2.00",
+      "protestants": "49.00",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "16",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "76.00",
+      "rapes": "141",
+      "motor_vehicle_thefts": "439.00",
+      "murders": "7"
+    },
+    "population": "2632132.00",
+    "races": {
+      "asian": "5.50",
+      "latinos": "7.90",
+      "white": "67.2",
+      "others": "0.00",
+      "black": "19.40"
+    }
+  },
+  {
+    "region_name": "Vermont",
+    "id": "US_VT",
+    "median_income": "49393.00",
+    "people_in_poverty": "12.4",
+    "median_age": "40.00",
+    "weather": {
+      "sunny_days": "58",
+      "precipitation": "976"
+    },
+    "religion": {
+      "atheists": "27.5",
+      "other": "0.50",
+      "protestants": "47.50",
+      "muslim": "0.50",
+      "buddhist": "1.00",
+      "catholic": "23",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "5678.00",
+      "rapes": "1580",
+      "motor_vehicle_thefts": "10609.00",
+      "murders": "376"
+    },
+    "population": "5035526.00",
+    "races": {
+      "asian": "1.30",
+      "latinos": "1.50",
+      "white": "95.3",
+      "others": "0.90",
+      "black": "1.00"
+    }
+  },
+  {
+    "region_name": "Washington",
+    "id": "US_WA",
+    "median_income": "55584.00",
+    "people_in_poverty": "13.5",
+    "median_age": "38.40",
+    "weather": {
+      "sunny_days": "89",
+      "precipitation": "829"
+    },
+    "religion": {
+      "atheists": "19.5",
+      "other": "1.00",
+      "protestants": "50.00",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "29",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "5929.00",
+      "rapes": "2579",
+      "motor_vehicle_thefts": "25744.00",
+      "murders": "154"
+    },
+    "population": "2671793.00",
+    "races": {
+      "asian": "7.20",
+      "latinos": "11.20",
+      "white": "77.3",
+      "others": "0.70",
+      "black": "3.60"
+    }
+  },
+  {
+    "region_name": "Wisconsin",
+    "id": "US_WI",
+    "median_income": "48974.00",
+    "people_in_poverty": "13.2",
+    "median_age": "37.50",
+    "weather": {
+      "sunny_days": "60",
+      "precipitation": "1147"
+    },
+    "religion": {
+      "atheists": "21",
+      "other": "1.00",
+      "protestants": "70.00",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "7",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "77.00",
+      "rapes": "162",
+      "motor_vehicle_thefts": "592.00",
+      "murders": "8"
+    },
+    "population": "1526057.00",
+    "races": {
+      "asian": "2.30",
+      "latinos": "5.90",
+      "white": "85.5",
+      "others": "0.00",
+      "black": "6.30"
+    }
+  },
+  {
+    "region_name": "West Virginia",
+    "id": "US_WV",
+    "median_income": "38241.00",
+    "people_in_poverty": "18.2",
+    "median_age": "36.50",
+    "weather": {
+      "sunny_days": "114",
+      "precipitation": "328"
+    },
+    "religion": {
+      "atheists": "16.5",
+      "other": "0.50",
+      "protestants": "51.00",
+      "muslim": "0.50",
+      "buddhist": "0.50",
+      "catholic": "31",
+      "jewish": "0.5"
+    },
+    "crime": {
+      "robberies": "4516.00",
+      "rapes": "1191",
+      "motor_vehicle_thefts": "8152.00",
+      "murders": "155"
+    },
+    "population": "2933477.00",
+    "races": {
+      "asian": "0.70",
+      "latinos": "1.20",
+      "white": "93.9",
+      "others": "0.80",
+      "black": "3.40"
+    }
+  },
+  {
+    "region_name": "Wyoming",
+    "id": "US_WY",
+    "median_income": "53757.00",
+    "people_in_poverty": "11.4",
+    "median_age": "34.50",
+    "weather": {
+      "sunny_days": "62",
+      "precipitation": "941.00"
+    },
+    "religion": {
+      "atheists": "43.5",
+      "other": "2.00",
+      "protestants": "26.00",
+      "muslim": "2.00",
+      "buddhist": "0.50",
+      "catholic": "27",
+      "jewish": "1"
+    },
+    "crime": {
+      "robberies": "776.00",
+      "rapes": "362",
+      "motor_vehicle_thefts": "2419.00",
+      "murders": "58"
+    },
+    "population": "1441240.00",
+    "races": {
+      "asian": "0.80",
+      "latinos": "8.90",
+      "white": "89.5",
+      "others": "0.00",
+      "black": "0.80"
+    }
+  }
+]
