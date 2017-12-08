@@ -5,7 +5,7 @@ class Map {
     this.infoPanel = new InfoPanel();
     this.stateData = [];
 
-    let range = ["green", "red"]
+    let range = ["#f3a6be", "#da1452"]
     this.colorScale = d3.scaleLinear().range(range);
   };
 

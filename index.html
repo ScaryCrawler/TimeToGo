@@ -2,59 +2,64 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Choose your perfect state</title>
-    <link rel="stylesheet" href="styles/general.css" />
-    <link rel="stylesheet" href="styles/map.css" />
-    <script src="https://d3js.org/d3.v4.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
-    <script src="js/utils.js" async></script>
-    <script src="js/questionnaire.js" async></script>
-    <script src="js/barChart.js" async></script>
-    <script src="js/map.js" async></script>
-    <script src="js/infoPanel.js" async></script>
-    <script src="js/main.js" async></script>
+  <meta charset="UTF-8">
+  <title>Choose your perfect state</title>
+  <link rel="stylesheet" href="styles/general.css" />
+  <link rel="stylesheet" href="styles/map.css" />
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+  <script src="js/utils.js" async></script>
+  <script src="js/questionnaire.js" async></script>
+  <script src="js/barChart.js" async></script>
+  <script src="js/map.js" async></script>
+  <script src="js/infoPanel.js" async></script>
+  <script src="js/main.js" async></script>
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
 <body>
-<div>
+  <div>
     <div id="questionnaireBlock"></div>
     <div id="barChartBlock"></div>
     <div id="mapBlock">
-
-        <svg id="statesvg"></svg>
-        <div id="tooltip"></div>
-        <div id = "description">
-          <div id="mapTitle">
-            <h1>Selected State: </h1>
-            <span id="selectedState"></span>
-          </div>
-          <div id="details" class="view">
-             <h2>Population</h2>
-             <span id="population"></span>
-             <h2>Races</h2>
-             <span id="races"></span>
-             <h2>Religions</h2>
-             <span id="religions"></span>
-             <h2>Average Income</h2>
-             <span id="income"></span>
-             <h2>Median Age</h2>
-             <span id="age"></span>
-             <h2>Crime</h2>
-             <span id="crime"></span>
-             <h2>Weather</h2>
-             <span id="weather"></span>
-          </div>
-        </div >
-        <div id = "colorSelection">
-            <label> Color Map By: </label>
-                <br>
-                <label><input type="radio" name="colorParam" id="populationColoring" value="population" checked> Population </label>
-                <br>
-                <label><input type="radio" name="colorParam" id="incomeColoring" value="median_income"> Average Income </label>
-                <br>
-                <label><input type="radio" name="colorParam" id="ageColoring" value="median_age"> Median Age</label>
+      <div id="map">
+        <div id="mapTitle">
+          <span>
+            <h1 id = "selectedState">Selected State: </h1>
+            <h2 id = "selectedStateName"></h2>
+          </span>
         </div>
+        <svg id="statesvg"></svg>
+        <div id="colorSelection">
+          <label> Color Map By: </label>
+          <br>
+          <label><input type="radio" name="colorParam" id="populationColoring" value="population" checked> Population </label>
+          <br>
+          <label><input type="radio" name="colorParam" id="incomeColoring" value="median_income"> Average Income </label>
+          <br>
+          <label><input type="radio" name="colorParam" id="ageColoring" value="median_age"> Median Age</label>
+        </div>
+      </div>
+      <div id="tooltip"></div>
+      <div id="description">
+        <div id="details" class="view">
+          <h2>Population</h2>
+          <span id="population"></span>
+          <h2>Races</h2>
+          <span id="races"></span>
+          <h2>Religions</h2>
+          <span id="religions"></span>
+          <h2>Average Income</h2>
+          <span id="income"></span>
+          <h2>Median Age</h2>
+          <span id="age"></span>
+          <h2>Crime</h2>
+          <span id="crime"></span>
+          <h2>Weather</h2>
+          <span id="weather"></span>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 </body>
