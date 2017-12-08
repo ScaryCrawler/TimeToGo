@@ -4,17 +4,25 @@ class Map {
   constructor() {
     this.infoPanel = new InfoPanel();
     this.stateData = [];
-    let min = 0;
-    let max = 7000000;
+
     let range = ["green", "red"]
-    this.colorScale = d3.scaleLinear()
-      .domain([min, max])
-      .range(range);
+    this.colorScale = d3.scaleLinear().range(range);
   };
 
 
-  update(stateData) {
-
+  update() {
+    let colorParam = d3.select('input[name="colorParam"]:checked').property("value");
+    let info = self.stateData
+    self.colorScale.domain([d3.min(info, function(d) {
+      return d[colorParam];
+    }), d3.max(info, function(d) {
+      return d[colorParam];
+    })])
+    d3.selectAll(".state")
+      .style("fill", function(d) {
+        let state = getStateInfoById(d.id, info);
+        return self.colorScale(state[colorParam])
+      })
   }
 
   /**
@@ -22,6 +30,17 @@ class Map {
    */
   drawMap(mapData, stateData) {
     self = this;
+
+    let colorParam = d3.select('input[name="colorParam"]:checked').property("value");
+    this.colorScale.domain([d3.min(stateData, function(d) {
+        return d[colorParam];
+      }),
+      d3.max(stateData, function(d) {
+        return d[colorParam];
+      })
+    ])
+
+    d3.selectAll("input[type = 'radio']").on("change", self.update);
     let mapsvg = d3.select("#statesvg")
       .attr("width", "1000")
       .attr("height", "700");
@@ -36,7 +55,7 @@ class Map {
       })
       .style("fill", function(d) {
         let state = getStateInfoById(d.id, stateData);
-        return self.colorScale(state.population)
+        return self.colorScale(state[colorParam])
       })
       .on("mouseover", function(d) {
         d3.select("#tooltip").transition().duration(200).style("opacity", .9);

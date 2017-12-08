@@ -25,7 +25,10 @@
         <svg id="statesvg"></svg>
         <div id="tooltip"></div>
         <div id = "description">
-          <div id="mapTitle">Selected State: </div>
+          <div id="mapTitle">
+            <h1>Selected State: </h1>
+            <span id="selectedState"></span>
+          </div>
           <div id="details" class="view">
              <h2>Population</h2>
              <span id="population"></span>
@@ -46,12 +49,12 @@
         <div id = "colorSelection">
             <label> Color Map By: </label>
                 <br>
-                <label><input type="radio" name="colorParam" id="populationColoring" value="stacked" checked> Population </label>
+                <label><input type="radio" name="colorParam" id="populationColoring" value="population" checked> Population </label>
                 <br>
-                <label><input type="radio" name="colorParam" id="crimeColoring" value="grouped"> Crime </label>
+                <label><input type="radio" name="colorParam" id="incomeColoring" value="median_income"> Average Income </label>
                 <br>
-                <label><input type="radio" name="colorParam" id="incomeColoring" value="grouped"> Average Income</label>
-        </div >
-    </div >
+                <label><input type="radio" name="colorParam" id="ageColoring" value="median_age"> Median Age</label>
+        </div>
+    </div>
 </div>
 </body>

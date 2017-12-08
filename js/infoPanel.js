@@ -13,8 +13,10 @@ class InfoPanel {
 
     d3.selectAll(".text_label").remove();
 
-    d3.select("#mapTitle")
-      .property('innerHTML', stateInfo.region_name);
+    d3.select("#selectedState")
+      .append("text")
+      .attr('class', 'text_label')
+      .text(stateInfo.region_name);
 
     d3.select("#population")
       .append("text")
