@@ -1,0 +1,16 @@
+body {
+  font-family: "Lato";
+}
+
+h1 {
+  font-family: "Arvo";
+  font-size: 35px;
+  color: #464646;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 20px;
+}
+
+h2 {
+  margin-left: 20px;
+}
