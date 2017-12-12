@@ -26,7 +26,8 @@ class Map {
   }
 
   /**
-   * @param map_data the json data with the shape of all states
+   * @param mapData the json data with the shape of all states
+   * @param stateData the json statistic data
    */
   drawMap(mapData, stateData) {
     self = this;

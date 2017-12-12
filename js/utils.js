@@ -12,3 +12,18 @@ function getStateInfoById(stateId, allStateData) {
   }
   return allStateData[i];
 }
+
+function getCurrentStateSuitabilityCoeff(stateId, normalizedData, weights){
+    //todo: implement coeff calculation
+    return Math.random();
+}
+
+
+/**
+ * @param allStateData json loaded from all_stat.json with all statistic data
+ */
+function normalizeData(allStateData) {
+  //todo: normalize all data
+  let normalizedData = [];
+  return normalizedData;
+}
