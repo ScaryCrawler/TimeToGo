@@ -7,10 +7,14 @@ let map = new Map();
 let allStateData;
 
 
-//load the data corresponding to all the election years
-//pass this data and instances of all the charts that update on year selection to yearChart's constructor
+//load the data corresponding to all the sates
+//pass this data and instances of map and barcharct
 d3.json("data/all_stat.json", function(allData) {
-  allStateData = allData
+  allStateData = allData;
+
+  normalizeData(allStateData)
+  calculateSuitabilityCoeffForAllStales(allStateData, questionnaire)
+
   d3.json("data/us_map_data.json", function(usa) {
     map.drawMap(usa, allStateData);
   });

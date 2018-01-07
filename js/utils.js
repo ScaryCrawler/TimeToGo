@@ -13,17 +13,59 @@ function getStateInfoById(stateId, allStateData) {
   return allStateData[i];
 }
 
-function getCurrentStateSuitabilityCoeff(stateId, normalizedData, weights){
-    //todo: implement coeff calculation
-    return Math.random();
+
+/**
+ * @param data the json data with all states info
+ * @param questionnaire object of Questionnaire class
+ */
+function calculateSuitabilityCoeffForAllStales(data, questionnaire) {
+  data.forEach(function(state) {
+    let religion = 0
+    if (questionnaire.religionOpinion == 1) {
+      religion = 1 - state.religion[questionnaire.religion] / 100;
+    } else if (questionnaire.religionOpinion == -1) {
+      religion = state.religion[questionnaire.religion] / 100;
+    }
+
+    let race = 0;
+    if (questionnaire.raceOpinion == 1) {
+      race = 1 - state.races[questionnaire.race] / 100;
+    } else if (questionnaire.raceOpinion == -1) {
+      race = state.races[questionnaire.race] / 100;
+    }
+
+    state.coeff = state.median_income_norm_val * questionnaire.incomeOpinion +
+      state.population_norm_val * questionnaire.populationOpinion + religion + race + state.all_crime_norm_val;
+  });
+
+  var maxValue = d3.max(data, function(d) {
+    return d.coeff
+  });
+
+  data.forEach(function(state) {
+    state.coeff /= maxValue;
+  });
 }
 
 
-/**
- * @param allStateData json loaded from all_stat.json with all statistic data
- */
 function normalizeData(allStateData) {
-  //todo: normalize all data
-  let normalizedData = [];
-  return normalizedData;
+
+  allStateData.forEach(function(state) {
+    state.all_crime = 0;
+    crimes = Object.keys(state.crime)
+    crimes.forEach(function(current_crime) {
+      state.all_crime += parseFloat(state.crime[current_crime]);
+    })
+  });
+
+  keys = ["median_income", "population", "all_crime"];
+  keys.forEach(function(key) {
+    var maxValue = d3.max(allStateData, function(d) {
+      return d[key]
+    });
+
+    allStateData.forEach(function(state) {
+      state[key + "_norm_val"] = state[key] / maxValue;
+    });
+  });
 }
