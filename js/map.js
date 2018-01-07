@@ -62,7 +62,7 @@ class Map {
         d3.select("#tooltip").transition().duration(200).style("opacity", .9);
 
         d3.select("#tooltip")
-          .html(self.toolTip(d.n))
+          .html(self.toolTip(d))
           .style("left", (d3.event.pageX) + "px")
           .style("top", (d3.event.pageY - 28) + "px");
       })
@@ -74,9 +74,11 @@ class Map {
       });
   }
 
-  toolTip(n, d) {
-    return "<h4>" + n + "</h4><table>" +
-      "<tr><td>Suitability coefficient</td><td>" + "" + "</td></tr>" +
+  toolTip(d) {
+    return "<h4>" + d.n + "</h4><table>" +
+      "<tr><td>Suitability coefficient </td><td>" +
+      getStateInfoById(d.id, self.stateData).coeff.toFixed(3) +
+      "</td></tr>" +
       "</table>";
   }
 }
