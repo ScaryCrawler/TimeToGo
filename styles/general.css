@@ -14,3 +14,20 @@ h1 {
 h2 {
   margin-left: 20px;
 }
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.bar_labels {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}

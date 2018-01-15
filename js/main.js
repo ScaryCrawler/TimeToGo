@@ -17,6 +17,7 @@ d3.json("data/all_stat.json", function(allData) {
 
   d3.json("data/us_map_data.json", function(usa) {
     map.drawMap(usa, allStateData);
+    barChart.drawBarChart(allStateData);
   });
 });
 
