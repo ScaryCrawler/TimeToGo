@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Final project — Change a state</title>
+
+	<style type="text/css">
+		h1 {
+			color: #1946ba;
+			text-align: center;
+			margin-top: 75px;
+		}
+
+		h2 {
+			color: #EC0B43;
+			text-align: center;
+		}
+
+		body {
+			font-family: "ALSSchlangeSans";
+			font-size: 14pt;
+		}
+
+		table {
+			width: 800px;
+			table-layout: fixed;
+			margin: auto;
+			margin-bottom: 50px;
+		}
+
+		tr {
+			height:	50px;
+			text-align: left;
+			vertical-align: middle;
+		}
+
+		input[type=number] {
+			width: 6em;
+		}
+		input:valid {
+			border-color: green;
+		}
+		input:invalid {
+			border-color: red;
+		}
+
+		div {
+			width: 1000px;
+			margin: 0 auto;
+		}
+
+		.textline { 
+			border-left: 3px solid #ccc;
+			padding-left: 10px;
+		}
+
+		a.redButton {
+  			color: white;
+  			text-decoration: none;
+  			user-select: none;
+  			background: #ec0b43;
+  			padding: .7em 1.5em;
+  			outline: none;
+		}
+		a.redButton:hover { background: #ff6d5e; }
+		a.redButton:active { background: #c11200; }
+
+		a.blueButton {
+  			color: white;
+  			text-decoration: none;
+  			user-select: none;
+  			background: #1946ba;
+  			padding: .7em 1.5em;
+  			outline: none;
+  			border-radius: 50px;
+		}
+		a.blueButton:hover { background: #1966ba; }
+		a.blueButton:active { background: #11307f; }
+	</style>
+
+</head>
+
+<body>
+	<h1>Want to find your perfect state? <br /> Let's start!</h1>
+
+	<h2>Answer a few questions:</h2>
+
+	<table border="0", align="center", cellspacing="0", cellpadding="10">
+		<tr>
+			<td width="45%">
+				<label for="age">How old are you?&nbsp;&nbsp;&nbsp;</label>
+				<input required type="number" min="0" max="150" id="age" name="age">
+			</td>
+			<td width="55%" rowspan="2">
+				How do you feel about a lot of people around?&nbsp;&nbsp;&nbsp;
+				<select required>
+					<option disabled>Please choose one</option>
+					<option value="peopleTwo">Comfortable</option>
+					<option value="peopleThree">Neutral</option>
+					<option value="peopleFour">Uncomfortable</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Sex:&nbsp;&nbsp;&nbsp;
+				<input required type="radio" id="sexFemale" name="sexSelector">
+				<label for="sexFemale">Female&nbsp;&nbsp;&nbsp;</label>
+
+				<input required type="radio" id="sexMale" name="sexSelector">
+				<label for="sexMale">Male</label>
+				</form>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				Are you married?&nbsp;&nbsp;&nbsp;
+				<input required type="radio" id="marriedYes" name="married">
+				<label for="marriedYes">Yes&nbsp;&nbsp;&nbsp;</label>
+
+				<input required type="radio" id="marriedNo" name="married">
+				<label for="marriedNo">No</label>
+			</td>
+			<td>
+				Is a big income important for you?&nbsp;&nbsp;&nbsp;
+				<input required type="radio" id="incomeYes" name="income">
+				<label for="incomeYes">Yes&nbsp;&nbsp;&nbsp;</label>
+
+				<input required type="radio" id="incomeNo" name="income">
+				<label for="incomeNo">No</label>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				What's you race?&nbsp;&nbsp;&nbsp;
+				<select required>
+					<option disabled>Please choose one</option>
+					<option value="raceWhite">European</option>
+					<option value="raceBlack">Afro-American</option>
+					<option value="raceLatino">Latin</option>
+					<option value="raceAsian">Asian</option>
+					<option value="raceOther">Other</option>
+				</select>
+			</td>
+			<td>
+				What religion do you profess?&nbsp;&nbsp;&nbsp;
+				<select required>
+					<option disabled>Please choose one</option>
+					<option value="religionProtestant">Protestantism</option>
+					<option value="religionCatholic">Catholicism</option>
+					<option value="religionJewish">Judaism</option>
+					<option value="religionMuslim">Islam</option>
+					<option value="religionBuddhist">Buddhism</option>
+					<option value="religionAtheist">Atheism</option>
+					<option value="religionOther">Other</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="2">
+				Do you care about the color of your neighbors' skin?&nbsp;&nbsp;&nbsp;
+				<input required type="radio" id="racistYes" name="racist">
+				<label for="racistYes">Yes&nbsp;&nbsp;&nbsp;</label>
+
+				<input required type="radio" id="racistNo" name="racist">
+				<label for="racistNo">No</label>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="2">
+				How do you feel about people who profess a different religion?&nbsp;&nbsp;&nbsp;
+				<select required>
+					<option disabled>Please choose one</option>
+					<option value="religOne">Tolerant</option>
+					<option value="religTwo">I don't care</option>
+					<option value="religFour">Intolerant</option>
+				</select>
+			</td>
+		</tr>
+	</table>
+
+	<p style="text-align: center; font-size: 16pt;">
+		<a href="#" class="blueButton""><b>I'm ready to know!</b></a>
+	</p>
+
+
+</body>
+
+</html>
