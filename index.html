@@ -6,6 +6,7 @@
   <title>Choose your perfect state</title>
   <link rel="stylesheet" href="styles/general.css" />
   <link rel="stylesheet" href="styles/map.css" />
+  <link rel="stylesheet" href="styles/questionnaire.css" />
   <script src="https://d3js.org/d3.v4.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
   <script src="js/utils.js" async></script>
@@ -15,13 +16,125 @@
   <script src="js/infoPanel.js" async></script>
   <script src="js/main.js" async></script>
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
 <body>
   <div>
-    <div id="questionnaireBlock"></div>
+    <div id="questionnaireBlock">
+      <h1>Want to find your perfect state? <br /> Let's start!</h1>
+      <h2>Answer a few questions:</h2>
+
+      <table border="0" , align="center" , cellspacing="0" , cellpadding="10">
+        <tr>
+          <td width="45%">
+            <label for="age">How old are you?&nbsp;&nbsp;&nbsp;</label>
+            <input required type="number" min="0" max="150" id="age" name="age" value="35" />
+          </td>
+          <td width="55%" rowspan="2">
+            How do you feel about a lot of people around?&nbsp;&nbsp;&nbsp;
+            <select id="population" required>
+    					<option disabled>Please choose one</option>
+    					<option value="1">Comfortable</option>
+    					<option value="0">Neutral</option>
+    					<option value="-1">Uncomfortable</option>
+    				</select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            Sex:&nbsp;&nbsp;&nbsp;
+            <input required type="radio" id="sexFemale" name="sex" value="female" checked>
+            <label for="sexFemale">Female&nbsp;&nbsp;&nbsp;</label>
+
+            <input required type="radio" id="sexMale" name="sex" value="male">
+            <label for="sexMale">Male</label>
+            </form>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            Are you married?&nbsp;&nbsp;&nbsp;
+            <input required type="radio" id="marriedYes" name="married" value="1" checked>
+            <label for="marriedYes">Yes&nbsp;&nbsp;&nbsp;</label>
+
+            <input required type="radio" id="marriedNo" name="married" value="0">
+            <label for="marriedNo">No</label>
+          </td>
+          <td>
+            Is a big income important for you?&nbsp;&nbsp;&nbsp;
+            <input required type="radio" id="incomeYes" name="income" value="1" checked>
+            <label for="incomeYes">Yes&nbsp;&nbsp;&nbsp;</label>
+
+            <input required type="radio" id="incomeNo" name="income" value="0">
+            <label for="incomeNo">No</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            What's you race?&nbsp;&nbsp;&nbsp;
+            <select id="race" required>
+    					<option disabled>Please choose one</option>
+    					<option value="white" checked>European</option>
+    					<option value="black">Afro-American</option>
+    					<option value="latinos">Latin</option>
+    					<option value="asian">Asian</option>
+    					<option value="others">Other</option>
+    				</select>
+          </td>
+          <td>
+            What religion do you profess?&nbsp;&nbsp;&nbsp;
+            <select id="religion" required>
+    					<option disabled>Please choose one</option>
+    					<option value="protestants" checked>Protestantism</option>
+    					<option value="catholic">Catholicism</option>
+    					<option value="jewish">Judaism</option>
+    					<option value="muslim">Islam</option>
+    					<option value="buddhist">Buddhism</option>
+    					<option value="atheists">Atheism</option>
+    					<option value="other">Other</option>
+    				</select>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            Do you care about the color of your neighbors' skin?&nbsp;&nbsp;&nbsp;
+            <select id="raceOpinion" required>
+    					<option disabled>Please choose one</option>
+              <option value="1" checked>Tolerant</option>
+    					<option value="0">I don't care</option>
+    					<option value="-1">Intolerant</option>
+    				</select>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            How do you feel about people who profess a different religion?&nbsp;&nbsp;&nbsp;
+            <select id="religionOpinion" required>
+    					<option disabled>Please choose one</option>
+    					<option value="1" checked>Tolerant</option>
+    					<option value="0">I don't care</option>
+    					<option value="-1">Intolerant</option>
+    				</select>
+          </td>
+        </tr>
+      </table>
+
+      <p style="text-align: center; font-size: 16pt;">
+        <a href="#" class="blueButton" onCLick="showResultBasedOnQuestionnaire()"><b>I'm ready to know!</b></a>
+      </p>
+
+    </div>
+
+
     <div id="barChartBlock"></div>
+
+
     <div id="mapBlock">
       <div id="map">
         <div id="mapTitle">
@@ -47,7 +160,7 @@
       <div id="description">
         <div id="details" class="view">
           <h2>Population</h2>
-          <span id="population"></span>
+          <span id="statePopulation"></span>
           <h2>Races</h2>
           <span id="races"></span>
           <h2>Religions</h2>
@@ -55,7 +168,7 @@
           <h2>Average Income</h2>
           <span id="income"></span>
           <h2>Median Age</h2>
-          <span id="age"></span>
+          <span id="medianAge"></span>
           <h2>Crime</h2>
           <span id="crime"></span>
           <h2>Weather</h2>
@@ -65,4 +178,5 @@
     </div>
   </div>
 </body>
+
 </html>

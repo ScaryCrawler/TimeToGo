@@ -19,3 +19,13 @@ d3.json("data/all_stat.json", function(allData) {
     map.drawMap(usa, allStateData);
   });
 });
+
+
+
+function showResultBasedOnQuestionnaire() {
+  questionnaire.update();
+  calculateSuitabilityCoeffForAllStales(allStateData, questionnaire)
+  barChart.update();
+  var bestState = (allStateData.sort(function(a, b) { return b.coeff - a.coeff; }))[0];
+  map.infoPanel.updateInfo(getStateInfoById(bestState.id, allStateData));
+}
