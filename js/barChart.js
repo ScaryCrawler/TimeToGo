@@ -2,14 +2,17 @@
 class BarChart {
 
   constructor() {
-
+      this.stateData = [];
   }
 
 
   update(stateData) {
+      let info = self.stateData;
   }
 
   drawBarChart(stateData) {
+      this.stateData = stateData;
+
       var svg = d3.select("#barChartSvg")
             .attr("width", "1000")
             .attr("height", "700"),
