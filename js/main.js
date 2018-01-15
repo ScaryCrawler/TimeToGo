@@ -30,3 +30,8 @@ function showResultBasedOnQuestionnaire() {
   var bestState = (allStateData.sort(function(a, b) { return b.coeff - a.coeff; }))[0];
   map.infoPanel.updateInfo(getStateInfoById(bestState.id, allStateData));
 }
+
+
+function updateInfoPanel(stateId){
+  map.infoPanel.updateInfo(getStateInfoById(stateId, allStateData));
+}

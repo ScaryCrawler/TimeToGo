@@ -13,6 +13,13 @@ class InfoPanel {
 
     d3.selectAll(".text_label").remove();
 
+
+    d3.select("#currentCoeff")
+      .append("text")
+      .attr('class', 'text_label')
+      .text(stateInfo.coeff.toFixed(3));
+
+
     d3.select("#selectedStateName")
       .append("text")
       .attr('class', 'text_label')
@@ -66,7 +73,7 @@ class InfoPanel {
         .append("div")
         .append("text")
         .attr('class', 'text_label')
-        .text(weather[k] + ": " + stateInfo.weather[weather[k]] )
+        .text(weather[k] + ": " + stateInfo.weather[weather[k]])
     }
   }
 }

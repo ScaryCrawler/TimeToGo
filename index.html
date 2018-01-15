@@ -159,6 +159,7 @@
 
     </div>
     <div class="section" id="section1">
+      <h1>States rating by suitability coefficient</h1>
       <svg id="barChart">
          <g id="xAxis"></g>
          <g id="yAxis"></g>
@@ -168,16 +169,21 @@
     </div>
 
     <div class="section" id="section2">
-      <div id="colorSelection" style="margin-left: 500px; margin-top: 20px">
-        <label> Color Map By: </label>
-        <br>
-        <label><input type="radio" name="colorParam" id="coeffColoring" value="coeff" checked> Suitability Coeff </label>
-        <br>
-        <label><input type="radio" name="colorParam" id="populationColoring" value="population"> Population </label>
-        <br>
-        <label><input type="radio" name="colorParam" id="incomeColoring" value="median_income"> Average Income </label>
-        <br>
-        <label><input type="radio" name="colorParam" id="ageColoring" value="median_age"> Median Age</label>
+      <div>
+        <div id="colorSelection" class="description" style="margin-left: 500px; margin-top: 20px; width: 200px">
+          <label> Color Map By: </label>
+          <br>
+          <label><input type="radio" name="colorParam" id="coeffColoring" value="coeff" checked> Suitability Coeff </label>
+          <br>
+          <label><input type="radio" name="colorParam" id="populationColoring" value="population"> Population </label>
+          <br>
+          <label><input type="radio" name="colorParam" id="incomeColoring" value="median_income"> Average Income </label>
+          <br>
+          <label><input type="radio" name="colorParam" id="ageColoring" value="median_age"> Median Age</label>
+        </div>
+        <div class="description" style="margin-top: 50px; margin-left: 300px">
+          <h1 id="currentCoeff"></h1>
+        </div>
       </div>
       <div id="map">
         <div id="mapTitle">
@@ -186,27 +192,30 @@
             <h2 id = "selectedStateName"></h2>
           </span>
         </div>
-        <div style="margin-left: -150px; margin-top: -100px"><svg id="statesvg"></svg></div>
-
-
+        <div style="margin-left: -150px; margin-top: -50px"><svg id="statesvg"></svg></div>
       </div>
       <div id="tooltip" class="tooltip"></div>
+
       <div id="description">
         <div id="details" class="view">
-          <h3>Population</h3>
-          <span id="statePopulation"></span>
-          <h3>Races</h3>
-          <span id="races"></span>
-          <h3>Religions</h3>
-          <span id="religions"></span>
-          <h3>Average Income</h3>
-          <span id="income"></span>
-          <h3>Median Age</h3>
-          <span id="medianAge"></span>
-          <h3>Crime</h3>
-          <span id="crime"></span>
-          <h3>Weather</h3>
-          <span id="weather"></span>
+          <div class="description">
+            <h3>Population</h3>
+            <span id="statePopulation"></span>
+            <h3>Races</h3>
+            <span id="races"></span>
+            <h3>Religions</h3>
+            <span id="religions"></span>
+          </div>
+          <div class="description">
+            <h3>Average Income</h3>
+            <span id="income"></span>
+            <h3>Median Age</h3>
+            <span id="medianAge"></span>
+            <h3>Crime</h3>
+            <span id="crime"></span>
+            <h3>Weather</h3>
+            <span id="weather"></span>
+          </div>
         </div>
       </div>
     </div>
