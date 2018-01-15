@@ -18,7 +18,7 @@ class InfoPanel {
       .attr('class', 'text_label')
       .text(stateInfo.region_name);
 
-    d3.select("#population")
+    d3.select("#statePopulation")
       .append("text")
       .attr('class', 'text_label')
       .text(stateInfo.population);
@@ -28,7 +28,7 @@ class InfoPanel {
       .attr('class', 'text_label')
       .text(stateInfo.median_income);
 
-    d3.select("#age")
+    d3.select("#medianAge")
       .append("text")
       .attr('class', 'text_label')
       .text(stateInfo.median_age);
