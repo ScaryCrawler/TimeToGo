@@ -1,38 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xfmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Choose your perfect state</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>TimeToGo</title>
+
+  <link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
+  <link rel="stylesheet" type="text/css" href="styles/scroll.css" />
   <link rel="stylesheet" href="styles/general.css" />
   <link rel="stylesheet" href="styles/map.css" />
+  <link rel="stylesheet" href="styles/barchart.css" />
   <link rel="stylesheet" href="styles/questionnaire.css" />
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
   <script src="https://d3js.org/d3.v4.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+  <script type="text/javascript" src="../jquery.fullPage.js"></script>
+
   <script src="js/utils.js" async></script>
   <script src="js/questionnaire.js" async></script>
   <script src="js/barChart.js" async></script>
   <script src="js/map.js" async></script>
   <script src="js/infoPanel.js" async></script>
   <script src="js/main.js" async></script>
+
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        sectionsColor: ['#b9cbd7', '#f2f3f0', '#f2f3f0'],
+        anchors: ['firstPage', 'secondPage', '3rdPage']
+      });
+    });
+  </script>
+
 </head>
 
 <body>
-  <div>
-    <div id="questionnaireBlock">
+
+  <ul id="menu">
+    <li data-menuanchor="firstPage"><a href="#firstPage">Questionnaire</a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">BarChart</a></li>
+    <li data-menuanchor="3rdPage"><a href="#3rdPage">Map</a></li>
+  </ul>
+
+
+  <div id="fullpage">
+    <div class="section active" id="section0">
       <h1>Want to find your perfect state? <br /> Let's start!</h1>
       <h2>Answer a few questions:</h2>
 
       <table border="0" , align="center" , cellspacing="0" , cellpadding="10">
         <tr>
-          <td width="45%">
-            <label for="age">How old are you?&nbsp;&nbsp;&nbsp;</label>
+          <td>
+            <label for="age">How old are you?</label>
             <input required type="number" min="0" max="150" id="age" name="age" value="35" />
           </td>
-          <td width="55%" rowspan="2">
-            How do you feel about a lot of people around?&nbsp;&nbsp;&nbsp;
+          <td rowspan="2">
+            How do you feel about a lot of people around?
             <select id="population" required>
     					<option disabled>Please choose one</option>
     					<option value="1">Comfortable</option>
@@ -44,9 +72,9 @@
 
         <tr>
           <td>
-            Sex:&nbsp;&nbsp;&nbsp;
+            Sex:
             <input required type="radio" id="sexFemale" name="sex" value="female" checked>
-            <label for="sexFemale">Female&nbsp;&nbsp;&nbsp;</label>
+            <label for="sexFemale">Female</label>
 
             <input required type="radio" id="sexMale" name="sex" value="male">
             <label for="sexMale">Male</label>
@@ -56,17 +84,17 @@
 
         <tr>
           <td>
-            Are you married?&nbsp;&nbsp;&nbsp;
+            Are you married?
             <input required type="radio" id="marriedYes" name="married" value="1" checked>
-            <label for="marriedYes">Yes&nbsp;&nbsp;&nbsp;</label>
+            <label for="marriedYes">Yes</label>
 
             <input required type="radio" id="marriedNo" name="married" value="0">
             <label for="marriedNo">No</label>
           </td>
           <td>
-            Is a big income important for you?&nbsp;&nbsp;&nbsp;
+            Is a big income important for you?
             <input required type="radio" id="incomeYes" name="income" value="1" checked>
-            <label for="incomeYes">Yes&nbsp;&nbsp;&nbsp;</label>
+            <label for="incomeYes">Yes</label>
 
             <input required type="radio" id="incomeNo" name="income" value="0">
             <label for="incomeNo">No</label>
@@ -75,7 +103,7 @@
 
         <tr>
           <td>
-            What's you race?&nbsp;&nbsp;&nbsp;
+            What's you race?
             <select id="race" required>
     					<option disabled>Please choose one</option>
     					<option value="white" checked>European</option>
@@ -86,7 +114,7 @@
     				</select>
           </td>
           <td>
-            What religion do you profess?&nbsp;&nbsp;&nbsp;
+            What religion do you profess?
             <select id="religion" required>
     					<option disabled>Please choose one</option>
     					<option value="protestants" checked>Protestantism</option>
@@ -102,7 +130,7 @@
 
         <tr>
           <td colspan="2">
-            Do you care about the color of your neighbors' skin?&nbsp;&nbsp;&nbsp;
+            Do you care about the color of your neighbors' skin?
             <select id="raceOpinion" required>
     					<option disabled>Please choose one</option>
               <option value="1" checked>Tolerant</option>
@@ -114,7 +142,7 @@
 
         <tr>
           <td colspan="2">
-            How do you feel about people who profess a different religion?&nbsp;&nbsp;&nbsp;
+            How do you feel about people who profess a different religion?
             <select id="religionOpinion" required>
     					<option disabled>Please choose one</option>
     					<option value="1" checked>Tolerant</option>
@@ -126,20 +154,31 @@
       </table>
 
       <p style="text-align: center; font-size: 16pt;">
-        <a href="#" class="blueButton" onCLick="showResultBasedOnQuestionnaire()"><b>I'm ready to know!</b></a>
+        <a href="#secondPage" class="blueButton" onCLick="showResultBasedOnQuestionnaire()"><b>I'm ready to know!</b></a>
       </p>
 
     </div>
-
-
-    <div id="barChartBlock">
-      <div id="barChart">
-        <svg id="barChartSvg"></svg>
-      </div>
+    <div class="section" id="section1">
+      <svg id="barChart">
+         <g id="xAxis"></g>
+         <g id="yAxis"></g>
+         <g id="bars"></g>
+      </svg>
+      <div id="bar_tooltip" class="tooltip"></div>
     </div>
 
-
-    <div id="mapBlock">
+    <div class="section" id="section2">
+      <div id="colorSelection" style="margin-left: 500px; margin-top: 20px">
+        <label> Color Map By: </label>
+        <br>
+        <label><input type="radio" name="colorParam" id="coeffColoring" value="coeff" checked> Suitability Coeff </label>
+        <br>
+        <label><input type="radio" name="colorParam" id="populationColoring" value="population"> Population </label>
+        <br>
+        <label><input type="radio" name="colorParam" id="incomeColoring" value="median_income"> Average Income </label>
+        <br>
+        <label><input type="radio" name="colorParam" id="ageColoring" value="median_age"> Median Age</label>
+      </div>
       <div id="map">
         <div id="mapTitle">
           <span>
@@ -147,40 +186,33 @@
             <h2 id = "selectedStateName"></h2>
           </span>
         </div>
-        <svg id="statesvg"></svg>
-        <div id="colorSelection">
-          <label> Color Map By: </label>
-          <br>
-          <label><input type="radio" name="colorParam" id="coeffColoring" value="coeff" checked> Suitability Coeff </label>
-          <br>
-          <label><input type="radio" name="colorParam" id="populationColoring" value="population"> Population </label>
-          <br>
-          <label><input type="radio" name="colorParam" id="incomeColoring" value="median_income"> Average Income </label>
-          <br>
-          <label><input type="radio" name="colorParam" id="ageColoring" value="median_age"> Median Age</label>
-        </div>
+        <div style="margin-left: -150px; margin-top: -100px"><svg id="statesvg"></svg></div>
+
+
       </div>
-      <div id="tooltip"></div>
+      <div id="tooltip" class="tooltip"></div>
       <div id="description">
         <div id="details" class="view">
-          <h2>Population</h2>
+          <h3>Population</h3>
           <span id="statePopulation"></span>
-          <h2>Races</h2>
+          <h3>Races</h3>
           <span id="races"></span>
-          <h2>Religions</h2>
+          <h3>Religions</h3>
           <span id="religions"></span>
-          <h2>Average Income</h2>
+          <h3>Average Income</h3>
           <span id="income"></span>
-          <h2>Median Age</h2>
+          <h3>Median Age</h3>
           <span id="medianAge"></span>
-          <h2>Crime</h2>
+          <h3>Crime</h3>
           <span id="crime"></span>
-          <h2>Weather</h2>
+          <h3>Weather</h3>
           <span id="weather"></span>
         </div>
       </div>
     </div>
   </div>
+  </div>
+
 </body>
 
 </html>
