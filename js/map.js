@@ -5,7 +5,7 @@ class Map {
     this.infoPanel = new InfoPanel();
     this.stateData = [];
 
-    let range = ["#f3a6be", "#da1452"]
+    let range = ["#f2f3f0", "#7fa101"]
     this.colorScale = d3.scaleLinear().range(range);
   };
 
@@ -46,6 +46,9 @@ class Map {
       .attr("width", "1000")
       .attr("height", "700");
     this.stateData = stateData;
+
+
+
     mapsvg.selectAll(".state")
       .data(mapData)
       .enter()
@@ -72,6 +75,8 @@ class Map {
       .on('click', function(d) {
         self.infoPanel.updateInfo(getStateInfoById(d.id, stateData));
       });
+
+      mapsvg.attr("transform", "scale(0.6)");
   }
 
   toolTip(d) {

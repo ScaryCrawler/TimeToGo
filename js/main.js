@@ -26,7 +26,7 @@ d3.json("data/all_stat.json", function(allData) {
 function showResultBasedOnQuestionnaire() {
   questionnaire.update();
   calculateSuitabilityCoeffForAllStales(allStateData, questionnaire)
-  barChart.update();
+  barChart.drawBarChart(allStateData);
   var bestState = (allStateData.sort(function(a, b) { return b.coeff - a.coeff; }))[0];
   map.infoPanel.updateInfo(getStateInfoById(bestState.id, allStateData));
 }
