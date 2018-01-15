@@ -1,0 +1,71 @@
+/* h1 {
+  color: #1946ba;
+  text-align: center;
+  margin-top: 75px;
+}
+
+h2 {
+  color: #EC0B43;
+  text-align: center;
+} */
+
+/* body {
+  font-family: "ALSSchlangeSans";
+  font-size: 14pt;
+} */
+/* 
+table {
+  width: 800px;
+  table-layout: fixed;
+  margin: auto;
+  margin-bottom: 50px;
+} */
+
+/* tr {
+  height:	50px;
+  text-align: left;
+  vertical-align: middle;
+} */
+
+input[type=number] {
+  width: 6em;
+}
+input:valid {
+  border-color: green;
+}
+input:invalid {
+  border-color: red;
+}
+
+/* div {
+  width: 1000px;
+  margin: 0 auto;
+} */
+
+/* .textline {
+  border-left: 3px solid #ccc;
+  padding-left: 10px;
+} */
+
+a.redButton {
+    color: white;
+    text-decoration: none;
+    user-select: none;
+    background: #ec0b43;
+    padding: .7em 1.5em;
+    outline: none;
+}
+a.redButton:hover { background: #ff6d5e; }
+a.redButton:active { background: #c11200; }
+
+a.blueButton {
+    color: white;
+    text-decoration: none;
+    user-select: none;
+    background: #1946ba;
+    padding: .7em 1.5em;
+    outline: none;
+    border-radius: 50px;
+}
+a.blueButton:hover { background: #1966ba; }
+a.blueButton:active { background: #11307f; }
